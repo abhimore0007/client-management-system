@@ -1,0 +1,52 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django stuff:
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+media/
+static/
+
+# PyCharm and other IDE files
+.idea/
+.vscode/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+
+
+
+# Django migrations
+migrations/*
+!migrations/__init__.py
+
+# VS Code settings
+.vscode/
+
+# Test coverage
+.coverage
+*.cover
+*.hypothesis/
+
+# Node.js dependencies
+node_modules/
+
+# macOS Finder folder attributes
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Secrets files
+*.env
