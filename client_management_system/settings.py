@@ -86,12 +86,12 @@ WSGI_APPLICATION = 'client_management_system.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'client_management_system',
+        'NAME': 'CMS',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'root',
         # 'PASSWORD': 'root',
         'HOST': 'localhost',  
-        'PORT': '3307',     
+        'PORT': '3306',     
     }
 }
 
